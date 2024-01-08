@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 1em;
+
+}
+.sticky-box {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(207, 207, 207, 0.384);
+    color: black;
+    padding: 14px;
+    width: 180px;
+    z-index: 1000;
+    border-radius: 40px 0px 0px 40px;
+    box-shadow:1px 2px 2px 1px rgba(17, 15, 15, 0.205);
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(17, 15, 15, 0.205);
+    letter-spacing: 4px;
+
+}
+.header > h4 > a{
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+}
+#about-hr{
+    border: 0;
+    border-top: 1px solid #dfdcdc;
+    margin: 10px 100px;
+    position: relative;
+    bottom: 70px;
+}
+
+.header > h4{
+    font-weight: lighter;
+    margin: 0px 12px;
+}
+.header > nav > a{
+text-decoration: none;
+ color: black;
+ padding:10px 11px;
+ letter-spacing: 5px;
+ font-size: 14px;
+}
+a:hover{
+    background-color: rgb(221, 217, 217);
+}
+.content > img{
+width: 100%;
+height:95vh;
+opacity: 90%;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    position: relative;
+    left: 750px;
+    top: 150px;
+    height: 40vh;
+    
+}
+.about-h1{
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: "Playfair Display";
+}
+.about-h3{
+    text-align: center;
+    font-family: "Playfair Display";
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+#grey-p{
+    font-size: medium;
+    color: rgb(106, 104, 104);
+}
+#about > p{
+    font-size: 19px;
+    
+}
+.about-img > img{
+width: 500px;
+margin: auto 160px;
+position: relative;
+bottom: 150px;
+height: 90vh;
+opacity:80% ;
+}
+#menu{
+width: 41%;
+margin: 60px 140px;
+}
+
+#menu > h1{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 35px;
+    position: relative;
+    bottom: 5vh;
+    font-family: "Playfair Display";
+    letter-spacing: 4px;
+
+}
+#menu > h3{
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-family: "Playfair Display";
+}
+#menu > p{
+    color: grey;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.menu-img > img{
+    width: 500px;
+margin: 0px 400px;
+position: relative;
+bottom: 550px;
+height: 90vh;
+opacity:80% ;
+left: 300px;
+}
+#menu-hr{
+    border: 0;
+    border-top: 1px solid #dfdcdc;
+    margin: 10px 100px;
+    position: relative;
+    bottom: 70vh;
+}
+#contact{
+    position: relative;
+    bottom: 60vh;
+    margin: 0px 110px;
+    height: 60vh;
+}
+#contact > h1{
+    font-size: 2.2rem;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-family: "Playfair Display";
+
+}
+#contact > #contact-p{
+    color: rgba(45, 100, 145, 0.993);
+    font-weight: bold;
+}
+.input-tags > input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #dfdcdc;
+    margin: 15px;
+    padding: 20px;
+    }
+#contact-btn{
+    background-color: rgb(221, 217, 217);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(17, 15, 15, 0.205)
+}
+#contact-btn:hover{
+    background-color: rgba(128, 128, 128, 0.582);
+   
+}
+
+footer{
+    background-color:rgba(128, 128, 128, 0.308);
+    text-align: center;
+position: relative;
+padding-top: 80px;
+}
+
+footer > p {
+    position: relative;
+    bottom: 30px;
+}
